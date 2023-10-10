@@ -37,26 +37,47 @@ header{
                 color: white;
                 padding: 10px;
             }
+            section > p{
+                padding-bottom: 1em;
+            }
             section{ 
                 padding-top: 10vh;
                 padding-bottom: 10vh;
                 line-height: 2em;
                 padding-left: 30px;
                 font-family: var(--font3);
-                font-size: 3vw;
+                font-size: 2vw;
             }
             section.normal{
                 background-color: white;
                 color: black;
             }
             section.imagem > P{
+                
+                text-shadow: 1px 1px 0px black;
+                color: white;
                 padding: 5px;
                 display: inline-block;
-                background-color: bisque;
+                background-color:rgba(88, 83, 83, 0.192)
             }
             section.imagem{
-            background-color: rgb(177, 177, 224);
+                background-attachment: fixed;
+                box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+                background-size: cover;
+            background-color: rgb(240, 240, 247);
             color: black;
+            }
+            section#img01{
+                background-size: cover;
+                background-image: url(imagens/background001.jpg);
+                background-position: right,center;
+                
+                
+
+            }
+            section#img02{
+                background-image: url(imagens/background002.jpg)
+
             }
             @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,100&family=Onest:wght@100&display=swap');
 
